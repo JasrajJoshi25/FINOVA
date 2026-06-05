@@ -1,0 +1,60 @@
+.expense-page{
+  padding:30px;
+  background:#f8fbff;
+  min-height:100vh;
+}
+
+.expense-page h1{
+  text-align:center;
+  color:#2563eb;
+}
+
+.summary-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+  margin:20px 0;
+}
+
+.summary-card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 8px 20px rgba(37,99,235,.1);
+}
+
+.tracker-card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  margin-top:20px;
+  box-shadow:0 8px 20px rgba(37,99,235,.1);
+}
+
+.tracker-card input,
+.tracker-card select{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:1px solid #dbe4f0;
+  border-radius:10px;
+}
+
+.tracker-card button{
+  margin-top:15px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.transaction{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap:10px;
+  padding:12px;
+  border-bottom:1px solid #eee;
+}

@@ -1,0 +1,52 @@
+.itr-container{
+  padding:40px;
+  background:#f8fbff;
+  min-height:100vh;
+}
+
+.itr-header{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.itr-header h1{
+  color:#2563eb;
+}
+
+.itr-card{
+  max-width:500px;
+  margin:auto;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(37,99,235,.1);
+}
+
+.itr-card input{
+  width:100%;
+  padding:12px;
+  border:1px solid #dbe4f0;
+  border-radius:10px;
+}
+
+.result-box{
+  display:flex;
+  gap:10px;
+  margin-top:20px;
+}
+
+.result-item{
+  flex:1;
+  background:#eff6ff;
+  padding:15px;
+  border-radius:12px;
+  text-align:center;
+}
+
+.info-box{
+  margin-top:20px;
+  padding:15px;
+  background:#eff6ff;
+  border-left:4px solid #2563eb;
+  border-radius:10px;
+}
